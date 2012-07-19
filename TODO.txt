@@ -1,0 +1,4 @@
+TODO:
+
+- trovare ed inserire come plugin un motore di ricerca nel DOM, come Sizzle o uno di MicroJs;
+- integrare Modernizr?

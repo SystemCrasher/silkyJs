@@ -1,0 +1,7 @@
+/* silkyJs documentation. */
+
+silkyJs is a light JavaScript Framework, modular and free. Our main objective is to provide a library that combines the features of many famous 
+libraries, like jQuery, Dojo, MicroJs. SilkyJs should also develops itself as another "write less, do more" JavaScript framework.
+It supports AMD standard, too.
+
+The core is located in silkyjs.js, while auxiliary modules are usually named silkyjs.modulename.js.

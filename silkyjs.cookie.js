@@ -1,6 +1,7 @@
 /**
- * Cookies management plugin. v. 1.0.0.
+ * Cookies management plugin, free and redistributable.
  * @author System Crasher.
+ * @version 1.1.0.0.
  */
 (function(silky) {
 	silky.cookie = {
@@ -46,6 +47,21 @@
 		      }
 		    }
 		    return null;
+		},
+		getJSON: function(name) {
+			var jsonObject = null;
+			var sValue = this.get(name);
+			if (sValue !== null && sValue !=='') {
+				try
+				{
+					jsonObject = JSON.parse(sValue);
+				}
+				catch (err)
+				{
+					jsonObject = null;
+				}
+			}
+			return jsonObject;
 		},
 		/* Remove a cookie. */
 		remove: function(name) {

@@ -1,0 +1,7 @@
+Silky JS CHANGELOG:
+--------------------
+0.2.0.0:
+- modularity;
+- cookie's official plugin;
+0.1.0.0:
+- library core was created;

@@ -1,5 +1,6 @@
 /**
  * @author System Crasher.
+ * @version 0.2.0.0.
  */
 (function( window, undefined ) {
 	// Use the correct document accordingly with window argument (sandbox)
@@ -12,7 +13,7 @@
 		/* This object contains public information about silkyJs. */
 		manifest: {
 			name: 'Silky Javascript Framework',
-			version: '0.2'
+			version: '0.2.0.0'
 		},
 		/* Initialization function. */
 		init: function() {
